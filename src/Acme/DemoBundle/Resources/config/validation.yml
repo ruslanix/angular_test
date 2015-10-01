@@ -1,0 +1,6 @@
+Acme\DemoBundle\Model\Image:
+    properties:
+        label:
+            - NotBlank: ~
+#        filename:
+#            - NotBlank: ~

@@ -1,0 +1,16 @@
+Acme\DemoBundle\Model\Image:
+  exclusion_policy: ALL
+  xml_root_name: image
+  properties:
+    id:
+      expose: true
+      type: integer
+      groups: [restapi]
+    label:
+      expose: true
+      type: string
+      groups: [restapi]
+    filename:
+      expose: true
+      type: string
+      groups: [restapi]
