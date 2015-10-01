@@ -101,11 +101,4 @@ angular.module('myApp', []).controller('userCtrl', function($scope, $http) {
     $scope.$watch('file', function() {$scope.validateFields();});
 
     $scope.resetFormFields();
-//    $scope.label = '';
-//    $scope.file = false;
-//
-//    $scope.edit = false;
-//    $scope.incomplete = false;
-//    $scope.curr_image = false;
-//    $scope.filename = 'new.jpg';
 });
